@@ -1,0 +1,21 @@
+Dockerfile*
+docker_build.sh
+
+.venv/
+.pip_venv/
+
+__pycache__
+*.pyc
+
+# Packages
+*.egg
+!/tests/**/*.egg
+/*.egg-info
+/dist/*
+build
+_build
+.cache
+*.so
+*.whl
+*.tar
+*.tar.gz
